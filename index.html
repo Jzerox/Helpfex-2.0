@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  
+  <!-- sección menú -->
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Helpfex <img src="C:\Helpfex_data/logo.jpg" style="width: 20%" alt="left"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes Somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Padencias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Cancer</a></li>
+              <li><a class="dropdown-item" href="#">Gripe Aguda</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Listado</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid pt-5">
+
+    <article class="bordes p-4 bg-dark text-light rounded">
+      <h2 class="text-center">Historia</h2>
+      <p class="mt-4">Helpfex, nació con la idea de ser una red social seria y diferente, ¡Y lo es!. Querer ayudar. Saber ayudar. Animarse a
+      ayudar.</p>
+    </article>
+    
+    <section class="p-5">
+      <img src="assets/img/corazon.jpg" class="img-fluid" alt="mujer sosteniendo un corazon">
+      
+    </section>
+
+    <article class="p-4">
+      Imagen de
+      <a href="https://www.freepik.es/foto-gratis/vista-frontal-valor-cartera-mujer-forma-corazon_9638052.htm#&position=0&from_view=collections">
+        Freepik
+      </a>
+    </article>
+
+    <article class="bordes p-4 my-4 bg-secondary text-light rounded">
+      <h2 class="text-center">Misión</h2>
+      <p class="mt-4">Nuestro objetivo es que las personas con una enfermedad en común se puedan conocer mediante la medicina y nuestra red
+      social.</p>
+    </article>
+
+    <article class="p-4">
+      <h2 class="text-center">Servicios</h2>
+    </article>
+
+    <div class="card-group gap-4">
+      <div class="card">
+        <img src="assets/img/familia.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Familia</h5>
+          <p class="card-text">Aqui todos los usuarios en Helpfex podrán compartir sus vivencias en estos dificiles momentos de su vida. Bienvenidos al muro principal de Helpfex.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/med-anotando.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Profesionales</h5>
+          <p class="card-text">Helpfex brinda espacio a los profesionales de la salud.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/papel.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Concepto</h5>
+          <p class="card-text"> Helpfex, nació con la idea de ser una red social seria y diferente, ¡Y lo es!. Querer ayudar. Saber ayudar. Animarse a ayudar.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inicio Formulario -->
+    <div class="formulario mb-3 bg-dark text-light rounded-4">
+      <form class="text-center">
+        <h2 class="py-4">Ingrese sus datos</h2>
+        <div class="row px-5">
+          <div class="col m-0">
+            <input type="text" class="form-control" placeholder="Nombre.." name="nombre">
+          </div>
+          <div class="col m-0">
+            <input type="text" class="form-control" placeholder="Apellido.." name="apellido">
+          </div>
+        </div>
+        <div class="my-3 mx-5">
+          <input type="email" class="form-control" placeholder="E-mail" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3 mx-5">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 mx-5">
+
+        </div>
+        <div class="mb-3 mx-5 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!-- Form 2-->
+    <div class="formulario mb-3 bg-light text-dark rounded-4">
+    <form>
+      <!-- 2 column grid layout with text inputs for the first and last names -->
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form6Example1" class="form-control" />
+            <label class="form-label" for="form6Example1">First name</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" id="form6Example2" class="form-control" />
+            <label class="form-label" for="form6Example2">Last name</label>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Text input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="form6Example3" class="form-control" />
+        <label class="form-label" for="form6Example3">Company name</label>
+      </div>
+    
+      <!-- Text input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="form6Example4" class="form-control" />
+        <label class="form-label" for="form6Example4">Address</label>
+      </div>
+    
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="form6Example5" class="form-control" />
+        <label class="form-label" for="form6Example5">Email</label>
+      </div>
+    
+      <!-- Number input -->
+      <div class="form-outline mb-4">
+        <input type="number" id="form6Example6" class="form-control" />
+        <label class="form-label" for="form6Example6">Phone</label>
+      </div>
+    
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+        <label class="form-label" for="form6Example7">Additional information</label>
+      </div>
+    
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+        <label class="form-check-label" for="form6Example8"> Create an account? </label>
+      </div>
+    
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+    </form>
+  </div>
+
+  <!--Form 3-->
+  <div class="formulario mb-3 bg-light text-dark rounded-4">
+  <form class="row row-cols-lg-auto g-3 align-items-center">
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-text">@</div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username" />
+      </div>
+    </div>
+  
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+      <select class="select">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="4">Four</option>
+        <option value="5">Five</option>
+        <option value="6">Six</option>
+        <option value="7">Seven</option>
+        <option value="8">Eight</option>
+      </select>
+    </div>
+  
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck" />
+        <label class="form-check-label" for="inlineFormCheck">
+          Remember me
+        </label>
+      </div>
+    </div>
+  
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+  </div>
+
+  </div>
+  </div>
+  
+
+  
+</body>
+</html>
