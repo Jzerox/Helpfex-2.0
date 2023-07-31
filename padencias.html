@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- sección menú -->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Helpfex <img src="C:\Helpfex_data/logo.jpg" style="width: 20%" alt="left"
+                    background color="bg-dark"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="staff.html">Staff</a>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Muros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="cancer.html">Cancer</a></li>
+                            <li><a class="dropdown-item" href="#">Covid</a></li>
+                            <li><a class="dropdown-item" href="#">Gripe Aguda</a></li>
+                            <li><a class="dropdown-item" href="#">Enfermedades Psicologicas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"></a>
+                        </ul>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Padencias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Cancer</a></li>
+                            <li><a class="dropdown-item" href="#">Covid</a></li>
+                            <li><a class="dropdown-item" href="#">Gripe Aguda</a></li>
+                            <li><a class="dropdown-item" href="#">Enfermedades Psicologicas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"></a>
+                        </ul>
+                        </a>
+                    </li>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+            </div>
+        </div>
+    </nav>
+
+        <article class="p-4">
+            <h2 class="text-center">Padencias</h2>
+        </article>
+       
+
+        <div class="card-group gap-4">
+            <div class="card">
+                <img src="assets/img/enfermedadmental.jpg" class="card-img-top" alt="..." style="width: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title">Enfermedades Psicologicas</h5>
+                    <p class="card-text">Las enfermedades o trastornos mentales son afecciones que impactan su pensamiento, sentimientos, estado de ánimo y
+                    comportamiento.</p>
+                    <button>Mas info</button>
+                    <nav-link></nav-link>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/covid19.jpg" class="img-fluid" alt="..." style="width: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title">Covid 19</h5>
+                    <p class="card-text">La enfermedad por coronavirus (COVID-19) es una enfermedad infecciosa causada por el virus SARS-CoV-2.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button>Mas info</button>
+            <nav-link></nav-link>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/cancer.jpg" class="card-img-top" alt="..." style="width: 90%; height:57%">
+                <div class="card-body">
+                    <h5 class="card-title">Cancer</h5>
+                    <p class="card-text">El cáncer es una enfermedad que se presenta cuando las células se multiplican sin control y se diseminan a los tejidos
+                    que las rodean. Los cambios en el ADN (ácido desoxirribonucleico) causan el cáncer. La mayoría de estos cambios que
+                    causan cáncer ocurren en los genes, que son trozos del ADN.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <button>Mas info</button>
+                <nav-link></nav-link>
+                </div>
+             </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/img/gripeaguda.jpg" class="card-img-top" alt="" style="width: 622px; height: 47%;">
+            <div class="card-body">
+                <h5 class="card-title">Gripe Aguda</h5>
+                <p class="card-text">La gripe es una enfermedad infecciosa aguda, que afecta al aparato respiratorio y produce también una serie de síntomas
+                generales característicos.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <button>Mas info</button>
+            <nav-link></nav-link>
+            </div>
+        </div>
+        </div>
